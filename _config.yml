@@ -1,0 +1,32 @@
+title: PogoDev
+description: 'Unofficial Pokemon GO Development'
+url: 'https://pogodev.org'
+baseurl: ''
+repository: 'pogodevorg/pogodev.org'
+branch: 'master'
+
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    style: compressed
+
+defaults:
+    - {scope: {type: posts}, values: {layout: post, permalink: '/blog/:year/:month/:day/:title'}}
+
+exclude:
+    - bin
+    - README.md
+    - LICENSE.md
+    - CNAME
+    - Gemfile
+    - Gemfile.lock
+include:
+    - _pages
+    - favicons.ico
+
+gems:
+    - jekyll-sitemap
+    - jekyll-seo-tag
+    - jekyll-feed
+    - jemoji

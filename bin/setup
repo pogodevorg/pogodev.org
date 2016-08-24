@@ -1,0 +1,13 @@
+#!/usr/bin/env sh
+
+# Run this script immediately after cloning the codebase.
+
+# Make sure Bundler is installed
+if [ "$(gem query -i -n bundler)" = "false" ]; then
+  echo "Installing Bundler..."
+  gem install bundler
+fi
+
+# Set up Ruby dependencies via Bundler
+echo "Installing Dependencies..."
+bundle install

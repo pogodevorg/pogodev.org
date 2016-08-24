@@ -1,0 +1,46 @@
+body {
+  @include display(flex);
+  @include flex-direction(column);
+  font-family: $helvetica;
+  font-size: $base-font-size;
+  min-height: 100vh;
+  background-color: $main-bg-color;
+  color: $main-color;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+// Links
+a {
+    color: $link-color;
+    text-decoration: none;
+    // background-color: transparent;
+}
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6 { color: $heading-color; margin: 0; }
+h1 { font-size: golden-ratio($base-font-size, 2); font-weight: 300; -webkit-font-smoothing: antialiased; }
+h2 { font-size: golden-ratio($base-font-size, 1); font-weight: 300; -webkit-font-smoothing: antialiased; }
+h3 { font-size: golden-ratio($base-font-size, 0); font-weight: 400; -webkit-font-smoothing: antialiased; }
+h4 { font-weight: 500; }
+h5 { font-weight: 700; }
+h6 { font-weight: 700; }
+
+// Lists
+li {
+  margin-bottom: golden-ratio($base-font-size, -2);
+}
+
+// Rules
+hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}

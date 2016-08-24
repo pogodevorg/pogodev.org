@@ -1,0 +1,39 @@
+$base-hue: 220;
+$base-header-hue: 1;
+$base-font-size: 16px;
+$header-font-size: 13px;
+
+// breakpoints
+$small-screen: 735px;     // small: 735x*
+$medium-screen: 1068px;   // medium: 1068x890
+// large is default
+$xlarge-screen: 1442px;   // xlarge: 1442x1050
+
+// main
+$main-bg-color:       hsl($base-hue, 12%, 100%);
+$main-bg-color-shade: hsl($base-hue, 12%, 97%);
+$main-color-subtle:   hsl($base-hue, 12%, 54%);
+$main-color:          hsl($base-hue, 24%, 30%);
+$main-color-strong:   hsl($base-hue, 48%, 24%);
+
+$main-border-color:   hsl($base-hue, 12%, 84%);
+$main-link-color:     hsl($base-hue, 44%, 54%);
+
+// site header
+$header-bg-color:     hsl($base-hue, 6%, 10%);
+$header-color-subtle: hsl($base-header-hue, 24%, 52%);
+$header-color:        hsl($base-header-hue, 86%, 63%);
+$header-color-strong: hsl($base-header-hue, 76%, 90%);
+
+// hero
+$hero-bg-color:     darken($header-bg-color, 2%);
+$hero-color:        $header-color;
+
+// base
+$body-color:    $main-color;
+$heading-color: $main-color-strong;
+$border-color:  $main-border-color;
+$link-color:    $main-link-color;
+
+// Sections
+$page-header-bg-color: $main-bg-color-shade;

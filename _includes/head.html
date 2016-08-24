@@ -1,0 +1,37 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{{ site.title }}{% if page.title %} • {{ page.title }}{% endif %}" />
+  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+  <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/images/opengraph.png" />
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ page.url | replace:'index.html',"" | prepend: site.baseurl | prepend: site.url }}" />
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/images/opengraph.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:site_name" content="{{ site.title }}" />
+  <meta content="#131416" name="theme-color" />
+
+  <link href="{{ site.baseurl }}/images/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180" >
+  <link href="{{ site.baseurl }}/images/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32">
+  <link href="{{ site.baseurl }}/images/favicon-16x16.png" rel="icon" type="image/png" sizes="16x16">
+  <link href="{{ site.baseurl }}/favicon.ico" type="image/x-icon" rel="icon"/>
+  <link href="{{ site.baseurl }}/favicon.ico" type="image/x-icon" rel="shortcut icon"/>
+  <link href="{{ site.baseurl }}/manifest.json" rel="manifest" >
+  <link href="{{ site.baseurl }}/images/safari-pinned-tab.svg" rel="mask-icon" color="#e95c5a">
+  <meta content="{{ site.baseurl }}/browserconfig.xml" name="msapplication-config">
+  <meta name="theme-color" content="#131416">
+
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/index.css">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,600">
+</head>

@@ -1,0 +1,25 @@
+.page-header {
+  background-color: $page-header-bg-color;
+  border-bottom: 1px solid darken($page-header-bg-color, 8%);
+  padding: golden-ratio($base-font-size, 2);
+  text-align: center;
+
+  h1 {
+    margin: 0 0 golden-ratio($base-font-size, 0) 0;
+  }
+
+  .lead {
+    margin: 0 0 golden-ratio($base-font-size, -1);
+  }
+}
+
+.page-section {
+  padding: golden-ratio($base-font-size, 2);
+  @media screen and (max-width: $small-screen) {
+    padding: golden-ratio($base-font-size, 1);
+  }
+}
+
+.error-page {
+  text-align: center;
+}

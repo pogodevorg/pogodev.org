@@ -1,0 +1,183 @@
+// Hero ------------------------------
+.hero {
+  text-align: center;
+  background-color: $hero-bg-color;
+  padding: golden-ratio($base-font-size, 2);
+  color: $hero-color;
+  font-size: golden-ratio($base-font-size, 2);
+  font-weight: 300;
+
+  @media screen and (max-width: $small-screen) {
+    font-size: golden-ratio($base-font-size, 1);
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.hero-logo {
+  max-width: 216px;
+  line-height: 0;
+  margin: auto;
+  -webkit-animation: spin 5s linear 0s infinite;
+  animation: spin 5s linear 0s infinite;
+
+  svg {
+    -webkit-animation: spin golden-ratio(5s, -3) linear 0s infinite;
+    animation: spin golden-ratio(5s, -3) linear 0s infinite;
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+  }
+
+  &:hover {
+    svg {
+      -webkit-animation-play-state: running;
+      animation-play-state: running;
+    }
+  }
+
+  @media screen and (max-width: $small-screen) {
+    max-width: 108px;
+    -webkit-animation: spin golden-ratio(5s, -4) ease-in-out golden-ratio(5s, -4) 1;
+    animation: spin golden-ratio(5s, -4) ease-in-out golden-ratio(5s, -4) 1;
+  }
+}
+
+.hero-lead {
+  margin-bottom: 0;
+}
+
+.sub-hero {
+  background-color: lighten($header-bg-color, 3%);
+  border-top: 1px solid darken($header-bg-color, 8%);
+  border-bottom: 1px solid darken($header-bg-color, 8%);
+  padding: golden-ratio($base-font-size, 1);
+  text-align: center;
+
+  @media screen and (max-width: $small-screen) {
+    font-size: 14px;
+    padding: golden-ratio($base-font-size, 0);
+  }
+
+  span + span:not(:last-child) {
+    border-right: 1px solid darken($header-bg-color, 8%);
+  }
+
+  .status-online {
+    color: hsl(120, 50%, 44%);
+  }
+
+  .status-offline {
+    color: hsl(0, 61%, 55%);
+  }
+}
+
+// Versions
+.home-versions {
+  display: inline-block;
+  margin: 0 auto;
+  color: $main-color-subtle;
+  font-size: .88em;
+}
+
+.home-versions span {
+  display: inline-block;
+  line-height: 1;
+  padding: 0.6em 0.8em;
+}
+
+.home-versions strong {
+  color: #ccc;
+}
+
+.home-versions-api {
+  border-radius: 3px;
+  border: 1px solid darken($header-bg-color, 6%);
+  background-color: lighten($header-bg-color, 6%);
+}
+
+// home section
+.page-section-home {
+  text-align: center;
+  background-color: $header-bg-color;
+  color: $main-color-subtle;
+
+  a { color: inherit }
+
+  a:hover {
+    text-decoration: none;
+    color: $header-color;
+
+    .hero-icon {
+      transform: scale(1.1);
+      transition-duration: .3s;
+      border: 1px solid lighten($header-color, 8%);
+    }
+  }
+
+  a:active {
+    color: $header-color-strong;
+    &:active .hero-icon {
+      transform: scale(.92);
+      transition-duration: 0;
+    }
+  }
+}
+
+.hero-block {
+  @include row();
+}
+
+.hero-block {
+  margin-bottom: golden-ratio($base-font-size, 2);
+}
+
+.hero-block {
+  &:last-child { margin-bottom: 0;}
+  @media screen and (max-width: $small-screen) {
+    margin-bottom: 0;
+  }
+}
+
+.hero-link {
+  @include span-columns(4);
+  @media screen and (max-width: $small-screen) {
+    @include span-columns(12);
+    margin: golden-ratio($base-font-size, 1) auto;
+  }
+}
+
+.hero-icon {
+  // color: $heading-color;
+  font-size: golden-ratio($base-font-size, 2);
+  display: block;
+  background-color: transparent;
+  width: 75px;
+  height: 75px;
+  padding-top: 16.5px;
+  margin: 0 auto 12px;
+  border-radius: 50%;
+  border: 1px solid lighten($header-bg-color, 8%);
+}
+
+// Footer
+.footer.footer-home {
+  background-color: lighten($header-bg-color, 3%);
+  border-top: 1px solid darken($header-bg-color, 8%);
+
+
+  .footer-love {
+    @media screen and (max-width: $small-screen) {
+      border-top: 1px solid darken($header-bg-color, 8%);
+    }
+  }
+}
