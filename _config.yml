@@ -3,6 +3,7 @@ description: 'Unofficial PokemonGO Development Community'
 url: 'https://pogodev.org'
 baseurl: ''
 homepage: 'https://pogodev.org'
+homepagetitle: 'PogoDev'
 repository: 'pogodevorg/pogodev.org'
 branch: 'master'
 
