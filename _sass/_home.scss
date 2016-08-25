@@ -149,7 +149,7 @@
 }
 
 .hero-link {
-  @include span-columns(4);
+  @include span-columns(3);
   @media screen and (max-width: $small-screen) {
     @include span-columns(12);
     margin: golden-ratio($base-font-size, 1) auto;
