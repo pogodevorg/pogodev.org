@@ -39,10 +39,24 @@ function setStatuses(data) {
   }
 }
 
+function setPgoApiVersion(data) {
+  apiVersion = document.querySelector('.js-pgoapi-version');
+  if (data.latest_api_version) {
+    apiVersion.textContent = data.latest_api_version;
+  }
+}
+
 function updateStatuses() {
   loadJSON("https://go.jooas.com/status",
     setStatuses
   );
 }
 
-document.addEventListener('DOMContentLoaded', updateStatuses)
+function updatePgoApiVersion() {
+  loadJSON("https://docs.pogodev.org/version.json",
+    setPgoApiVersion
+  );
+}
+
+document.addEventListener('DOMContentLoaded', updateStatuses);
+document.addEventListener('DOMContentLoaded', updatePgoApiVersion);

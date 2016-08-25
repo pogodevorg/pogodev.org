@@ -3,42 +3,44 @@ permalink: /
 layout: default
 ---
 
-<div class="hero">
-  <div class="container">
-    <div class="hero-logo">
-      <svg viewBox="0 0 216 216" xmlns="http://www.w3.org/2000/svg">
-        <g stroke="none" fill="none" fill-rule="evenodd">
-          <path class="svg-fill" d="M139.175026,75.2584908 C147.820935,83.4932571 153.209302,95.1173683 153.209302,108 C153.209302,132.968408 132.968408,153.209302 108,153.209302 C95.1173683,153.209302 83.4932571,147.820935 75.2584908,139.175026 L40.6217432,173.811773 C24.0355901,156.83332 13.8139535,133.610356 13.8139535,108 C13.8139535,55.9824829 55.9824829,13.8139535 108,13.8139535 C133.610356,13.8139535 156.83332,24.0355901 173.811773,40.6217432 L173.811773,40.6217432 L139.175026,75.2584908 L139.175026,75.2584908 Z M108,216 C167.646753,216 216,167.646753 216,108 C216,48.353247 167.646753,0 108,0 C48.353247,0 0,48.353247 0,108 C0,167.646753 48.353247,216 108,216 L108,216 Z M108,202.186047 C160.017517,202.186047 202.186047,160.017517 202.186047,108 C202.186047,55.9824829 160.017517,13.8139535 108,13.8139535 C55.9824829,13.8139535 13.8139535,55.9824829 13.8139535,108 C13.8139535,160.017517 55.9824829,202.186047 108,202.186047 L108,202.186047 Z M108,140.651163 C126.032739,140.651163 140.651163,126.032739 140.651163,108 C140.651163,89.9672607 126.032739,75.3488372 108,75.3488372 C89.9672607,75.3488372 75.3488372,89.9672607 75.3488372,108 C75.3488372,126.032739 89.9672607,140.651163 108,140.651163 L108,140.651163 Z"></path>
-        </g>
-      </svg>
+    <div class="hero">
+      <div class="container">
+        <div class="hero-logo">
+          <svg viewBox="0 0 216 216" xmlns="http://www.w3.org/2000/svg">
+            <g stroke="none" fill="none" fill-rule="evenodd">
+              <path class="svg-fill" d="M139.175026,75.2584908 C147.820935,83.4932571 153.209302,95.1173683 153.209302,108 C153.209302,132.968408 132.968408,153.209302 108,153.209302 C95.1173683,153.209302 83.4932571,147.820935 75.2584908,139.175026 L40.6217432,173.811773 C24.0355901,156.83332 13.8139535,133.610356 13.8139535,108 C13.8139535,55.9824829 55.9824829,13.8139535 108,13.8139535 C133.610356,13.8139535 156.83332,24.0355901 173.811773,40.6217432 L173.811773,40.6217432 L139.175026,75.2584908 L139.175026,75.2584908 Z M108,216 C167.646753,216 216,167.646753 216,108 C216,48.353247 167.646753,0 108,0 C48.353247,0 0,48.353247 0,108 C0,167.646753 48.353247,216 108,216 L108,216 Z M108,202.186047 C160.017517,202.186047 202.186047,160.017517 202.186047,108 C202.186047,55.9824829 160.017517,13.8139535 108,13.8139535 C55.9824829,13.8139535 13.8139535,55.9824829 13.8139535,108 C13.8139535,160.017517 55.9824829,202.186047 108,202.186047 L108,202.186047 Z M108,140.651163 C126.032739,140.651163 140.651163,126.032739 140.651163,108 C140.651163,89.9672607 126.032739,75.3488372 108,75.3488372 C89.9672607,75.3488372 75.3488372,89.9672607 75.3488372,108 C75.3488372,126.032739 89.9672607,140.651163 108,140.651163 L108,140.651163 Z"></path>
+            </g>
+          </svg>
+        </div>
+        <p class="hero-lead">{{ site.description }}</p>
+      </div>
     </div>
-    <p class="hero-lead">
-      {{ site.description }}
-    </p>
-  </div>
-</div>
 
-<div class="sub-hero">
-  <div class="container">
-    <div class="home-versions">
-      <span class="home-versions-api">API: <strong>{{ site.latest_api_version }}</strong></span>
-      <span>Pokemon GO: <strong class='js-go-status'>Unknown</strong></span>
-      <span>PTC: <strong class='js-ptc-status'>Unknown</strong></span>
+    <div class="sub-hero">
+      <div class="container">
+        <div class="home-versions">
+          <span class="home-versions-api">Latest API Version: <strong class='js-pgoapi-version'>Unknown</strong></span>
+          <span>PokemonGO Server Status: <strong class='js-go-status'>Unknown</strong></span>
+          <span>PTC Server Status: <strong class='js-ptc-status'>Unknown</strong></span>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-<section class="page-section page-section-home">
-  <div class="container hero-block">
-    <a class="hero-link" href="{{ site.baseurl }}/docs/"><span class="hero-icon fa fa-book"></span>Browse the docs</a>
-    <a class="hero-link" href="https://discordapp.com/invite/dKTSHZC"><span class="hero-icon fa fa-comments-o"></span>Chat on discord</a>
-    <a class="hero-link" href="https://talk.pogodev.org/"><span class="hero-icon fa fa-question"></span>Get some help on the forum</a>
-  </div>
-  <div class="container hero-block">
-    <a class="hero-link" href="https://www.reddit.com/r/pokemongodev/"><span class="hero-icon fa fa-reddit-alien"></span>Stay up do date with our Reddit feed</a>
-    <a class="hero-link" href="https://wiki.pogodev.org/"><span class="hero-icon fa fa-pencil-square-o"></span>Let's work together on the Wiki !</a>
-    <a class="hero-link" href="https://github.com/pogodevorg/"><span class="hero-icon fa fa-github"></span>Check out our repositories</a>
-  </div>
-</section>
+    <section class="page-section page-section-home">
+      <div class="container hero-block">
+        <a class="hero-link" href="https://blog.pogodev.org"><span class="hero-icon fa fa-rss"></span>News on our Blog</a>
+        <a class="hero-link" href="https://docs.pogodev.org"><span class="hero-icon fa fa-book"></span>Browse our Documentation</a>
+        <a class="hero-link" href="https://discordapp.com/invite/dKTSHZC"><span class="hero-icon fa fa-microphone"></span>Chat with us on Discord</a>
+      </div>
+      <div class="container hero-block">
+        <a class="hero-link" href="https://talk.pogodev.org/"><span class="hero-icon fa fa-comments-o"></span>Discuss on our Forums</a>
+        <a class="hero-link" href="https://www.reddit.com/r/pokemongodev/"><span class="hero-icon fa fa-reddit-alien"></span>Follow us on Reddit</a>
+        <a class="hero-link" href="https://wiki.pogodev.org/"><span class="hero-icon fa fa-pencil-square-o"></span>Colloborate on our Wiki</a>
+      </div>
+      <div class="container hero-block">
+        <a class="hero-link" href="https://talk.pogodev.org/d/29-frequently-asked-questions"><span class="hero-icon fa fa-question"></span>Read our FAQ</a>
+        <a class="hero-link" href="https://github.com/pogodevorg/"><span class="hero-icon fa fa-github"></span>Check out our Repositories</a>
+      </div>
+    </section>
 
-<script src="{{ site.baseurl }}/js/index.js"></script>
+    <script src="{{ site.baseurl }}/js/index.js"></script>

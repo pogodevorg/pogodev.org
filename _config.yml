@@ -1,7 +1,8 @@
 title: PogoDev
-description: 'Unofficial Pokemon GO Development'
+description: 'Unofficial PokemonGO Development Community'
 url: 'https://pogodev.org'
 baseurl: ''
+homepage: 'https://pogodev.org'
 repository: 'pogodevorg/pogodev.org'
 branch: 'master'
 
