@@ -1,16 +1,29 @@
-# pogodev.org
+[![POGODEV](https://github.com/pogodevorg/assets/blob/master/public/img/logo-github.png?raw=true)](https://pogodev.org)
 
-Main pogodev.org website.
+# pogodev.org [![Build Status](https://img.shields.io/travis/pogodevorg/pogodev.org/master.svg)](https://img.shields.io/travis/pogodevorg/pogodev.org) [![Coverage Status](https://coveralls.io/repos/github/pogodevorg/pogodev.org/badge.svg?branch=master)](https://coveralls.io/github/pogodevorg/pogodev.org?branch=master) [![license](https://img.shields.io/github/license/pogodevorg/pogodev.org.svg?maxAge=2592000?style=flat-square)](#)
 
-### Getting Started
+## Table of Contents
+* [What is it?](#what-is-it)
+* [Installation](#installation)
+  * [Requirements](#requirements)
+  * [Instructions](#instructions)
+* [Documentation](#documentation)
+* [Contributing](#contributing)
+  * [Core Maintainers](#core-maintainers)
+* [Licensing](#licensing)
+  * [Third Party Licenses](#third-party-licenses)
+* [Credits](#credits)
 
-#### Dependencies to run locally
+## What is it?
+`pogodev.org` is our open source github pages main site backed with Jekyll.
 
+## Installation
+
+### Requirements
 - Linux / OSX
 - Ruby (> 2.0)
 
-#### Let's Get It On
-
+### Instructions
 Set up your project in your code directory
 ```
 git clone https://github.com/pogodevorg/pogodev.org.git
@@ -27,15 +40,25 @@ Run the server and watch for changes in your files
 ./bin/server
 ```
 
-### Contributing
+## Documentation
+    None
 
-Have a fix or want to add a feature?
-[Pull Requests](https://github.com/pogodevorg/pogodev.org/pulls) are welcome!
+## Licensing
+[GNU GPL](https://github.com/pogodevorg/pogodev.org/blob/master/LICENSE) v3 or later.
 
-### Credits
+### Third Party Licenses
+    None
 
-Thank you to all of [the contributors](https://github.com/pogodevorg/pogodev.org/contributors)!
+## Contributing
+Currently, you can contribute to this project by:
+* Submitting a detailed [issue](https://github.com/pogodevorg/pogodev.org/issues/new).
+* [Forking the project](https://github.com/pogodevorg/pogodev.org/fork), and sending a pull request back to for review.
 
-### License
+### Core Maintainers
 
-[GPL](LICENSE.md)
+* [![Build Status](https://github.com/keyphact.png?size=36) - keyphact](https://github.com/keyphact)
+
+* [![Build Status](https://github.com/hamue.png?size=36) - hamue](https://github.com/hamue)
+
+## Credits
+    None
