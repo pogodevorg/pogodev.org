@@ -1,6 +1,7 @@
 [![POGODEV](https://github.com/pogodevorg/assets/blob/master/public/img/logo-github.png?raw=true)](https://pogodev.org)
 
-# pogodev.org [![Build Status](https://img.shields.io/travis/pogodevorg/pogodev.org/master.svg)](https://img.shields.io/travis/pogodevorg/pogodev.org) [![Coverage Status](https://coveralls.io/repos/github/pogodevorg/pogodev.org/badge.svg?branch=master)](https://coveralls.io/github/pogodevorg/pogodev.org?branch=master) [![license](https://img.shields.io/github/license/pogodevorg/pogodev.org.svg?maxAge=2592000?style=flat-square)](#)
+# pogodev.org
+[![Build Status](https://travis-ci.org/pogodevorg/pogodev.org.svg?branch=master)](https://travis-ci.org/pogodevorg/pogodev.org) [![Code Climate](https://codeclimate.com/github/pogodevorg/pogodev.org/badges/gpa.svg)](https://codeclimate.com/github/pogodevorg/pogodev.org) [![Issue Count](https://codeclimate.com/github/pogodevorg/pogodev.org/badges/issue_count.svg)](https://codeclimate.com/github/pogodevorg/pogodev.org) [![license](https://img.shields.io/github/license/pogodevorg/pogodev.org.svg?maxAge=2592000?style=flat-square)](https://github.com/pogodevorg/pogodev.org/blob/master/LICENSE.md)
 
 ## Table of Contents
 * [What is it?](#what-is-it)
