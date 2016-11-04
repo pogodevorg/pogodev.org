@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/pogodev
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://pogodev.org
+  * I am pogodev (https://keybase.io/pogodev) on keybase.
+  * I have a public key with fingerprint 6907 9DB9 FFD6 E972 27EC  0654 DC0C 7B73 BC24 C8C2
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01019c525bfb8a6b16997bdfcf6d4e668fb6901ef5ec71ffdd3a640526d15fe114630a",
+            "fingerprint": "69079db9ffd6e97227ec0654dc0c7b73bc24c8c2",
+            "host": "keybase.io",
+            "key_id": "dc0c7b73bc24c8c2",
+            "kid": "01019c525bfb8a6b16997bdfcf6d4e668fb6901ef5ec71ffdd3a640526d15fe114630a",
+            "uid": "ebe2ddfa1b6b5b75a5e92ef7ff21b619",
+            "username": "pogodev"
+        },
+        "service": {
+            "hostname": "pogodev.org",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1478234607,
+    "expire_in": 157680000,
+    "prev": "e6acbe32c0bb64385e5fac1ca36053f77dbaead19879eec463a816395500d144",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.58
+Comment: https://keybase.io/crypto
+
+yMIiAnicrVJbSBRRGB4ztTUje5DsTkM+hCZzZuacmdmQiHq1C0SZlNucy6zT1sw6
+O7tmYWJpURJJF0grCAqpKMpCpdBKK6KERehBKq0oulNBvRSBdUbqIeix83I43/m+
+7//+n//OlEwhN6PLPb3y8KYzXzMG+48mhYrZ0z7vELFL68TwDjHGxi+2hbKEH4nZ
+VAyLEpCAQaAMsYV1E2GADEPD1CIWoipDSLcwMiTALMiIBiyLUsVEqgRlRAG0GAAq
+UiRTLBEt24kyL+7Zjs9tuUYzKDa4ADFDk2WNEQlBlRKJaFhTMJFVohOZC6vdRKDg
+4bCZYKW2yzH+iIzH+wf/P+dOjtsxzGRKLRNghCHWoAmZITNLsyyZQ8AIiAnmOeZW
+xtlxN+pSlhLrS0QOpmzCgrkGjfxNKHW9KFfGPdd3ibuFf1T7fjwRDoR+XTxg1jIc
++e0RwbZD+RS5IsW8hO06YhhwJvHtwBSomi4rKpK0EpFti9sei9gBA2pIl/gJ6vBM
+vBdkEswUmUgYI1XRIYOWSQAxFSRBxdI0ik1mUmDomsEY4YMwdYAUA0JJokBVxaCr
+GscVw7ySb0a5ZcKOOqaf9JhYP3Brw0QhI1fIzpoQbJeQG8r/s3MtVZOEJuiWrz7f
+1rZuIH0gTwgdeX/ngTXX+WIPt5Rlvmmeb9PGiozeTTkH25aMrBgC35e+/vn2+Jr2
+KQ3Cdzg2v+ibXblvkfqp7ppe/HJqLyluyJ/XPdy8YFlOXuuPkP9u5+pnTZ3dR1s3
+pmo6UgX2/lPNWddH9mxec6zoxNvHye3O7b5pk43Y8lsfshen71ddmnqvYMbd3RfQ
+2ElnKFQ5vHdm8uHlWbHng/33dl6d/v5nomz98UXru74WtB5qL6z9sWrtqmtj9U/S
+kXT5zY/ZLWeW5xwb/VJY+yE760pNz9OL2zuqQp2nY6VzhF3do2fri4tevOrruVB7
+7lGH19y412ML22+8LFxY8QsIhUQM
+=3U9s
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/pogodev
+
+==================================================================
